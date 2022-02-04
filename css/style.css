@@ -1,18 +1,20 @@
 /* FONTS */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&family=Supermercado+One&Source+Serif+4:ital,wght@0,500;1,500&Josefin+Sans&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
   --font-primary: 'Rowdies', serif;
   --font-secondary: 'Supermercado One', serif;
+  --font-terceary: 'Josenfin Sans', sans-serif;
   --font-code: 'Roboto', monospace;
   --bg-color: #a23300;
   --font-color: #000000;
   --btn-bg-color: #ffffff;
   --accent-color: #d65d00ce;
   --header-shadow: #000 0px 0px 5px;
+
 }
 
 * {
@@ -179,5 +181,13 @@ section {
   .countdown p {
     font-size: 1rem;
   }
+}
+
+/* Road Map */
+h3 { 
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  text-align: center;
+
 }
  
