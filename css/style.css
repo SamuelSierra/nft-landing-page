@@ -157,6 +157,8 @@ section {
   text-align: center;
 }
 
+
+
 /* OWNER STYLES */
 
 .owner-status {
@@ -189,5 +191,22 @@ h3 {
   font-size: 40px;
   text-align: center;
 
+}
+
+/* Information */
+
+.information h1 {
+  text-shadow: 2px 2px 0 var(--accent-color);
+  font-style: italic;
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.information p {
+  font-size: 1.1rem;
+  font-family: var(--font-terceary);
+  margin-bottom: 2rem;
+  text-align: left;
 }
  
