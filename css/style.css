@@ -9,10 +9,10 @@
   --font-secondary: 'Supermercado One', serif;
   --font-terceary: 'Josenfin Sans', sans-serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #a23300;
+  --bg-color: #e6e3d6;
   --font-color: #000000;
   --btn-bg-color: #ffffff;
-  --accent-color: #d65d00ce;
+  --accent-color: #cccabf;
   --header-shadow: #000 0px 0px 5px;
 
 }
@@ -62,7 +62,7 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1.5rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
@@ -71,7 +71,7 @@ header .container {
   font-size: 1rem;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: 4px 4px 0 0 var(--accent-color);
+  box-shadow: 3px 3px 0 0 var(--accent-color);
   cursor: pointer;
   position: relative;
   text-decoration: none;
@@ -92,71 +92,6 @@ header .container {
   font-size: 1.2rem;
   padding: 1.5rem 3rem;
 }
-
-/* COUNTDOWN SECTION */
-
-section {
-  flex: 1 1 auto;
-}
-
-.countdown {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.countdown ul {
-  display: flex;
-  gap: 2rem
-}
-.countdown .clock-item {
-  list-style: none;
-  width: 70px;
-  height: auto;
-}
-.countdown .clock-item .count-number {
-  background: var(--accent-color);
-  color: var(--font-color);
-  font-size: 2rem;
-  font-weight: 700;
-  font-family: var(--font-secondary);
-  padding: 1rem;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  line-height: 1;
-  border-radius: 4px 4px 0 0;
-}
-.countdown .clock-item .count-text {
-  background: var(--btn-bg-color);
-  font-family: var(--font-secondary);
-  font-size: 1.1rem;
-  color: var(--bg-color);
-  padding: 0.5rem 0.7rem;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  line-height: 1;
-  border-radius: 0 0 4px 4px;
-}
-
-.countdown h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
-  margin: 2rem 0;
-  font-size: 3.5rem;
-  text-align: center;
-}
-
-.countdown p {
-  font-size: 1.1rem;
-  font-family: var(--font-secondary);
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
 
 
 /* OWNER STYLES */
