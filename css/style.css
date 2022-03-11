@@ -120,28 +120,121 @@ header .container {
   }
 }
 
-/* Road Map */
-h3 { 
-  font-family: var(--font-secondary);
-  font-size: 40px;
-  text-align: center;
-
-}
-
 /* Information */
 
-.information h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
-  margin: 2rem 0;
-  font-size: 3.5rem;
-  text-align: left;
+.information {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  background-color: #cccabf;
 }
 
 .information p {
-  font-size: 1.1rem;
-  font-family: var(--font-terceary);
-  margin-bottom: 2rem;
-  text-align: left;
+  padding: 1rem 1rem;
+
+
 }
- 
+
+.information h1 {
+
+  padding: 1rem 1rem;
+  text-shadow: 0.5px 2px #eeeeee;
+}
+
+.information h5 {
+  padding: 1rem 1rem;
+}
+.informationimg {
+
+  text-align: center;
+  flex-direction: column;
+  
+}
+
+/* Mint Section */
+
+.mint {
+  display: flex;
+  flex-direction: row;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+}
+
+.minttext {
+
+  text-align: center;
+  flex-direction: column;
+  padding: 2rem 16rem;
+}
+
+/* Road Map */
+
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4rem 4rem;
+  text-align: center;
+}
+
+.roadmap p {
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+.roadmap img{
+  text-align: center ;
+}
+
+.roadmap h1{
+  padding: 0.5rem 1rem 3rem 1rem;
+  font-size: 40px;
+}
+
+
+
+ /* Team */
+
+ .team {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  text-align: center;
+ }
+
+ .teamtable img {
+   padding: 30px;
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   
+ }
+
+ .teamtable table{
+   text-align: center;
+   margin: 0px auto;
+ }
+
+ .teamtable th {
+   text-align: center;
+   margin: 0px auto;
+ }
+
+ /* Botton Text */
+
+ .bottontext p{
+   padding: 6rem 10rem 0rem 10rem;
+   text-align: center;
+}
+
+.contact p{
+  text-align: center;
+}
+
+/* Columnas */ 
