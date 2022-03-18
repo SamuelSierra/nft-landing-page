@@ -51,10 +51,24 @@ header .container {
   align-items: center;
 }
 
+header .container a:link, a:visited {
+  color:#000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+header .container a:link:active, a:visited:active {
+  color:rgb(0, 0, 0);
+}
+
 .menu {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+.menu h3 {
+  font-family: var(--font-secondary);
 }
 
 /* BUTTONS */
@@ -171,8 +185,50 @@ header .container {
 
   text-align: center;
   flex-direction: column;
-  padding: 2rem 16rem;
-  font-family: var(--font-primary)
+  padding: 5rem 16rem;
+  font-family: var(--font-primary);
+}
+
+.minttext h5 {
+  font-family: var(--font-terceary);
+  font-size: 60%;
+  padding: 3px ;
+}
+
+.mintbutton {
+
+  text-align: center;
+  flex-direction: column;
+  padding: 2rem 0rem 0rem 0rem ;
+  font-family: var(--font-primary);
+  display: inline-block;
+  padding: 0.25rem 1.5rem;
+  background: var(--btn-bg-color);
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: capitalize;
+  transition: all 0.3s ease;
+  box-shadow: 3px 3px 0 0 var(--accent-color);
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  outline: none;
+  border-radius: 6rem;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.mintbutton a:link, a:visited {
+  color:rgb(0, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.mintbutton a:link:active, a:visited:active {
+  color:rgb(0, 0, 0);
 }
 
 /* Road Map */
