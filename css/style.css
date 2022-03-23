@@ -23,7 +23,7 @@
 }
 
 body {
-  background-image: url(file:///C:/Users/Alvaro%20&%20Samuel/Desktop/NFTs/Big%20Mouths/JPEGS/Web%20Background.png);
+  background-image: url(https://gateway.pinata.cloud/ipfs/QmZqyXxvSfRgN1x3uLnWag6mzqyseq8K4ANi9v667yKAMC);
   background-size: 100%;
   display: flex;
   flex-flow: column;
@@ -180,6 +180,10 @@ header .container a:link:active, a:visited:active {
   max-width: 960px;
   margin: 0 auto;
   padding: 2rem 3rem;
+}
+
+.mint img{
+  border-radius: 25px;
 }
 
 .minttext {
