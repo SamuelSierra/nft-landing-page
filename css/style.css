@@ -23,7 +23,8 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-image: url(file:///C:/Users/Alvaro%20&%20Samuel/Desktop/NFTs/Big%20Mouths/JPEGS/Web%20Background.png);
+  background-size: 100%;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -141,7 +142,7 @@ header .container a:link:active, a:visited:active {
   max-width: 960px;
   margin: 0 auto;
   padding: 1rem 2rem;
-  background-color: #cccabf;
+  background-color: #a8a79d;
 }
 
 .information p {
@@ -266,7 +267,7 @@ header .container a:link:active, a:visited:active {
 }
 
 .roadmap h3 {
-  background-color: #cccabf;
+  background-color: #a8a79d;
 }
 
  /* Team */
